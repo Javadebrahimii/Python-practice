@@ -1,0 +1,196 @@
+1)True,False
+
+2)The Python Boolean type is one of Python’s built-in data types. It’s used to represent the truth value of an expression. For example, the expression 1 <= 2 is True, while the expression 0 == 1 is False.
+
+(3
+1
+
+(4
+0
+
+5)false
+
+(6
+
+a) True
+b) True
+c) False
+d) True
+e) False
+f) True
+g) True
+h) True
+i) False
+j) True
+k) True
+l) False
+
+
+(7
+
+a) True
+b) True
+c) False
+d) True
+e) False
+f) False
+g) False
+h) True
+i) True
+j) True
+k) True
+l) True
+m) False
+n) True
+o) True
+p) True
+q) False
+r) True
+s) False
+t) True
+u) True
+v) False
+w) False
+x) True
+y) True
+z) False
+
+ناااااقص(8
+
+a) x!=2
+b) x<=2
+c) x>=y
+d) x>y
+e) 20<x<10
+f) 20<x<10
+g) 
+h) 
+
+
+
+
+
+(9
+
+(a) x != y
+(b) x <= y
+(c) x => y
+(d) x < y
+(e) x > y
+(f) x == y
+(g) x == y
+(h)x != y or x >= 2
+(i) x != y and x >= 2
+(j) x == y
+
+
+(10
+True
+
+(11
+False
+
+(12
+number=int(input("Type number : "))
+if 1<number<100:
+    print('Ok')
+
+(13
+number=int(input("Type number : "))
+if 1<number<100:
+    print('Ok')
+else:
+    print("Out of range.")
+
+(14
+name_week1=input("Type the name of the day : ")
+name_week2=name_week1.lower() #To solve the typing problem
+if name_week2=="saturday":
+    print("Sábado")
+elif name_week2=="sunday":
+    print("Domingo")
+elif name_week2=="monday":
+    print("Lunes")
+elif name_week2=="tuesday":
+    print("Martes")
+elif name_week2=="wednesday":
+    print("Miércoles")
+elif name_week2=="thursday":
+    print("Jueves")
+elif name_week2=="friday":
+    print("Viernes")
+else:
+    print("Please type the name of the week")
+
+(15
+
+a) i = 5  j = 5  k = 7
+b) i = 3  j = 5  k = 5
+c) i = 7  j = 3  k = 7
+d) i = 5  j = 3  k = 3
+e) i = 5  j = 3  k = 5
+f) i = 7  j = 7  k = 3
+
+(16
+
+a) wow 3
+b) whoa 21
+c) 6
+d) 27
+e) wow -5
+
+(17
+
+a)In a program written only with if, the output is equal to:****. But in another program, the output is equal to: *.
+
+b)In a program written only with if, the output is equal to:***. But in another program, the output is equal to: *.
+
+c)In a program written only with if, the output is equal to:***. But in another program, the output is equal to: *.
+
+d)In a program written only with if, the output is equal to:**. But in another program, the output is equal to: *.
+
+e)The output of both programs is equal to: *.
+
+f)Nothing is printed out
+
+
+(18
+
+number=int(input('type number : '))
+min=number
+max=number
+for a in range(4):
+
+    number=int(input('type number : '))
+    if number<min:
+        min=number
+    if number>max:
+        max=number
+    
+print("max=",max)
+print("min=",min)
+
+(19
+
+a = int(input('Enter 1:'))
+b = int(input('Enter 2:'))
+c = int(input('Enter 3:'))
+d = int(input('Enter 4:'))
+e = int(input('Enter 5:'))
+
+if a==b==c==d==e:
+    print("DUPLICATES")
+else:
+    print("ALL UNIQUE")
+
+
+
+
+
+
+
+
+
+
+
+
