@@ -55,7 +55,7 @@ x) True
 y) True
 z) False
 
-ناااااقص(8
+(8
 
 a) x!=2
 b) x<=2
@@ -63,8 +63,8 @@ c) x>=y
 d) x>y
 e) 20<x<10
 f) 20<x<10
-g) 
-h) 
+g) True
+h) False
 
 
 
