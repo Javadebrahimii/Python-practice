@@ -1,0 +1,112 @@
+تمرین ۹
+
+1)A class is a general part, but an object is a part of it.
+
+2) Instance variables are also commonly referred to as member variables, attributes, or fields.
+
+3) Another name for the term method is function.
+
+4)The dot symbol (.) 
+
+5) A method is similar to a function in that it can perform some action and return a result, but there is one key difference: a method is associated with an object, while a function is not. A method is called on an instance of a class, and has access to the data and behavior of that instance. In contrast, a function does not have an associated object and typically operates only on the arguments that are passed to it.
+
+6) Strip()
+
+7) Len()
+
+(8
+The open() function returns a file object.
+
+(9
+'r' : Read mode (default)
+
+'w' : Write mode
+
+'a' : Append mode
+
+(10
+f = open("numbers.txt", "w")
+for i in range(1, 101):
+    f.write(str(i) + "\n")
+f.close()
+
+(11
+def sumfile(filename):
+    file = open(filename, 'r')
+    total = 0
+    for line in file:
+        total += int(line)
+    file.close()
+    return total
+
+(12
+a) Subtraction 
+b) Equal 
+c) Negative
+d) Greater sign
+
+(13
+
+(14
+triangle:
+
+import turtle
+t =turtle.Turtle()
+t.fd(100)
+t.lt(120)
+t.fd(100)
+t.lt(120)
+t.fd(100)
+
+Star:
+
+import turtle
+t=turtle.Turtle()
+for j in range(5):
+	t.fd(100)
+	t.lt(144)
+
+like a mountain:
+
+import turtle
+
+t=turtle.Turtle()
+x=50
+y=100
+for j in range(5):
+	t.goto(x,100)
+	t.goto(y,0)
+	x+=100
+	y+=100
+
+Circle:
+import turtule
+t=turtle.Turtle()
+t.circle(30)
+
+Rotating square:
+
+import turtle
+t=turtle.Turtle()
+def squre():
+	for i in range(4):
+		t.fd(100)
+		t.lt(90)
+def draw():
+	for i in range(36):
+		squre()
+		t.lt(10)
+draw()
+
+(15
+
+16)We cannot change
+
+17)Data that is no longer used
+
+(18
+
+(19
+a)2,b and c.
+b)no
+c)yes
